@@ -1,0 +1,26 @@
+mkdir elisp
+cd elisp/
+touch style.el
+cd .emacs.d/
+touch custom.el
+touch packages.el
+ls
+cd ~
+rm -rf Arisbe/
+ls
+mkdir Arisbe
+ls
+snap
+clear
+wget
+cd
+wget https://github.com/Mastermindzh/tidal-hifi/releases/download/5.7.1/tidal-hifi_5.7.1_amd64.snap
+snap install --dangerous tidal-hifi_5.7.1_amd64.snap 
+tidal-hifi
+cd .emacs.d/
+git
+git init
+git branch -m master
+git config --global user.name "clormand"
+git config --global user.email "calormand@gmail.com"
+type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
